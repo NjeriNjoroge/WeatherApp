@@ -17,12 +17,12 @@ class CustomTabBarController: UITabBarController {
         let todayViewController = TodayViewController()
         let recentVC = UINavigationController(rootViewController: todayViewController)
         recentVC.tabBarItem.title = "Today"
-        recentVC.tabBarItem.image = UIImage(named: "cloud")
+        recentVC.tabBarItem.image = UIImage(named: "sun")
         
         let forecastViewController = ForecastViewController()
         let secondVC = UINavigationController(rootViewController: forecastViewController)
         secondVC.tabBarItem.title = "Forecast"
-        secondVC.tabBarItem.image = UIImage(named: "sun")
+        secondVC.tabBarItem.image = UIImage(named: "cloud")
         
         viewControllers = [recentVC, secondVC]
         

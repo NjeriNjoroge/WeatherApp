@@ -12,6 +12,9 @@ class ForecastViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.title = "Forecast"
+        view.backgroundColor = .white
 
         
     }
